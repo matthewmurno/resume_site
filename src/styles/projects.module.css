@@ -1,0 +1,54 @@
+.Layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+@media (max-width: 768px) {
+    .projectEmbed {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .projectThumbnailContainer {
+        max-width: 100%; 
+    }
+}
+
+.projectEmbed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.projectThumbnailContainer {
+    padding:1vh;
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: transform 0.3s ease;
+}
+
+.projectThumbnailContainer:hover {
+    transform: scale(1.05);
+}
+
+.projectTitle {
+    font-family: "Playfair Display", serif;
+    align-content: center;
+    font-size: 16px;
+    height: 50px;
+    position:absolute;
+    margin-left: 10px;
+    color: white;
+}
+
+.projectThumbnail {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,29 @@
+.Layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.layout_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+
+.titleStyle {
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}

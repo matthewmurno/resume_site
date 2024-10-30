@@ -1,0 +1,28 @@
+.Card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease;
+}
+
+
+.Title {
+  font-family: "Aleo", serif; 
+  font-size: 24px;
+  font-weight: 900; 
+  color:  rgb(50, 68, 90);
+  margin-bottom: 10px; 
+}
+
+.Info {
+  text-align: left;
+}
+
+.Info div {
+  margin-bottom: 10px;
+  font-family: "Aleo", serif;
+  font-size: 18px; 
+  color: #333; 
+}

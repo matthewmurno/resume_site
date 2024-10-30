@@ -1,0 +1,44 @@
+.header {
+  /*background-color: rgb(30, 34, 39);*/
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  z-index: 1000;
+  position: fixed;
+  top:0;
+  background-color: white;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+}
+
+.headerItem:first-child {
+  display: flex;
+  margin-left: 40px
+}
+
+.headerItem{
+  font-family: "Playfair Display", serif;
+}
+
+#headerText {
+  font-size: 24px;
+}
+
+#headerIcon > a{
+  margin-top: 10px;
+}
+
+.headerItem > a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerItem > a:hover {
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+  font-weight: bold;
+}

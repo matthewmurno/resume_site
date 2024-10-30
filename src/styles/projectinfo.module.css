@@ -1,0 +1,75 @@
+.Layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; 
+    max-width: 720px;
+    padding: 40px; 
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; 
+    width: 100%; 
+}
+
+.projectTitle {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.projectSubtitle {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin-bottom: 40px;
+    color: gray;
+}
+
+.projectDescription {
+    font-weight: 100;
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+}
+
+
+.projectImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%z;
+    max-width: 720px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.projectImage {
+    max-width: 100%;
+    object-fit: contain;
+    max-height: 500px;
+}

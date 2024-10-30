@@ -1,0 +1,56 @@
+.Card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.Title {
+  font-family: "Aleo", serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(50, 68, 90);
+  margin-bottom: 10px;
+}
+
+.SkillsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.SkillColumn {
+  flex: 1;
+}
+
+.Skill {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.SkillName {
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.CodeSnippet {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 14px;
+  color: #333;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.Selected {
+  background-color: #f0f0f0;
+}
+
+
+.Matched {
+  background-color: #c3e6cb;
+}

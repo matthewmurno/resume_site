@@ -1,0 +1,17 @@
+.introduction {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro_content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+}

@@ -1,0 +1,34 @@
+.Title {
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Aleo", serif;
+  font-size: 24px;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.Info {
+  margin-left: 20px;
+}
+
+.Card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  height: 50%;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+
+.Title {
+  background-color: rgb(50, 68, 90);
+}
